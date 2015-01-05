@@ -135,7 +135,7 @@ public class DrawingRobot
 				Thread.sleep(length* 500);
 				Motor.C.flt();
 				Motor.B.backward();
-				Thread.sleep(length* 1500);
+				Thread.sleep(length* 500);
 				Motor.A.rotate(angle, true);
 			}
 			catch(Exception threadException)
@@ -175,7 +175,7 @@ public class DrawingRobot
 				Thread.sleep(length* 500);
 				Motor.C.flt();
 				Motor.B.backward();
-				Thread.sleep(length* 1500);
+				Thread.sleep(length* 500);
 				Motor.A.rotate(angle, true);
 			}
 			catch(Exception threadException)
